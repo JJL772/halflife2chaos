@@ -504,6 +504,7 @@ $Project
 		//Haptics
 		$File	"$SRCDIR\public\haptics\haptic_msgs.cpp"	[!$X360]
 		$File	"$SRCDIR\public\haptics\haptic_utils.cpp"	[$WIN32&&!$X360]
+		$File	"$SRCDIR\game\client\imgui\ChaosSettings.cpp"
 
 		$Folder	"Sixense"
 		{
@@ -1267,3 +1268,5 @@ $Project
  	}
 
 }
+
+$Include "$SRCDIR\imgui\imgui\imgui_system.vpc"
