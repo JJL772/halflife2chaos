@@ -64,3 +64,9 @@ config.cfg
 
 ep1_gamestats.dat
 **/DownloadLists/*
+
+*.project
+*.a
+.cache
+.ccls-cache
+

@@ -72,9 +72,15 @@
 	}
 	"12"
 	{
+		"label" "CHAOS SETTINGS"
+		"command" "engine cl_open_chaos_settings"
+		"InGameOrder" "110"
+	}
+	"13"
+	{
 		"label" "#GameUI_GameMenu_Quit"
 		"command" "Quit"
-		"InGameOrder" "110"
+		"InGameOrder" "120"
 	}
 }
 
